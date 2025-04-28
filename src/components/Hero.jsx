@@ -3,6 +3,9 @@
  * @license Apache-2.0
  */
 
+// Components
+import { ButtonPrimary, ButtonOutline } from "./Button";
+
 const Hero = () => {
   return (
     <section id="home" className="pt-28 lg:pt-36">
@@ -19,24 +22,33 @@ const Hero = () => {
               />
             </figure>
 
-            <div className="">
-              <span className="">
-                <span className=""></span>
+            <div className="flex items-center gap-1.5 text-indigo-400 txt-sm tracking-wide">
+              <span className="relative w-2 h-2 rounded-full bg-indigo-300">
+                <span className="absolute inset-0 w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
               </span>
               Software Developer
             </div>
           </div>
-          <h2 className="">Vamos construir o futuro!</h2>
-          <div className="">ButtonPrimary ButtonOutline</div>
+          <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">
+            Vamos construir o futuro!
+          </h2>
+          <div className="flex items-center gap-3">
+            <ButtonPrimary label="Currículo" icon="download" />
+            <ButtonOutline
+              href="#about"
+              label="Sobre mim"
+              icon="keyboard_double_arrow_down"
+            />
+          </div>
         </div>
-        <div className="">
-          <figure className="">
+        <div className="hidden lg:block">
+          <figure className="w-full max-w-[480px] ml-auto">
             <img
               src="/profile.png"
               width={656}
               height={800}
               alt="André Rocha"
-              className="w-full"
+              className="profile-image w-full"
             />
           </figure>
         </div>
