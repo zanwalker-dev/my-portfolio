@@ -10,7 +10,7 @@ const SkillCard = ({ imgSrc, label, desc, classes }) => {
   return (
     <div
       className={
-        "flex items-center gap-3 ring-2 ring-inset ring-indigo-50/10 rounded-2xl p-3 hover:bg-indigo-400/20 transition-colors group " +
+        "flex items-center gap-3 ring-2 ring-inset ring-indigo-50/10 rounded-2xl p-3 hover:ring-1 hover:ring-indigo-400 hover:bg-indigo-400/20 transition-colors group " +
         classes
       }
     >
