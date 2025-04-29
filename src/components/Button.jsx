@@ -14,7 +14,7 @@ const ButtonPrimary = ({ href, target = "_self", label, icon, classes }) => {
         {label}
 
         {icon ? (
-          <span className="material-symbols-rounded" aria-riden="true">
+          <span className="material-symbols-rounded" aria-hidden="true">
             {icon}
           </span>
         ) : undefined}

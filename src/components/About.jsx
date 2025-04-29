@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section id="about" className="section">
       <div className="container">
-        <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12">
+        <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
           <h2 className="text-5xl font-bold headline-2 mb-4">Sobre mim</h2>
           <p className="mb-4 md:-mb-8 md:text-xl md:max-w-[60ch]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

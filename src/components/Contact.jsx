@@ -65,10 +65,10 @@ const Contact = () => {
     <section id="contact" className="section mb-4">
       <div className="container lg:grid lg:grid-cols-2 lg:items-stretch">
         <div className="mb-12 lg:mb-0 lg:flex lg:flex-col">
-          <h2 className="headline-contact lg:max-w-[10ch]">
+          <h2 className="headline-contact lg:max-w-[10ch] reveal-up">
             Vamos entrar em contato!
           </h2>
-          <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] lg:max-w-[40ch]">
+          <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] lg:max-w-[40ch] reveal-up">
             Vamos conversar e descobrir como podemos trabalhar juntos numa
             aplicação que solucione seu problema!
           </p>
@@ -79,7 +79,7 @@ const Contact = () => {
                 href={href}
                 target="_blank"
                 alt={alt}
-                className="w-12 h-12 grid place-items-center ring-inset ring-2 ring-zinc-50/5 rounded-lg transition-[background-color,color] bg-zinc-800 hover:bg-indigo-500 hover:ring-indigo-400 active:bg-indigo-800"
+                className="w-12 h-12 grid place-items-center ring-inset ring-2 ring-zinc-50/5 rounded-lg transition-[background-color,color] bg-zinc-800 hover:bg-indigo-500 hover:ring-indigo-400 active:bg-indigo-800 reveal-up"
               >
                 {icon}
               </a>
@@ -93,7 +93,7 @@ const Contact = () => {
         >
           <div className="md:grid md:items-center md:grid-cols-2 gap-2">
             <div className="mb-4">
-              <label htmlFor="name" className="label">
+              <label htmlFor="name" className="label reveal-up">
                 Name
               </label>
               <input
@@ -103,12 +103,12 @@ const Contact = () => {
                 autoComplete="name"
                 required
                 placeholder="Escreva seu nome"
-                className="text-field"
+                className="text-field reveal-up"
               />
             </div>
 
             <div className="mb-4">
-              <label htmlFor="email" className="label">
+              <label htmlFor="email" className="label reveal-up">
                 Email
               </label>
               <input
@@ -118,13 +118,13 @@ const Contact = () => {
                 autoComplete="email"
                 required
                 placeholder="email@example.com"
-                className="text-field"
+                className="text-field reveal-up"
               />
             </div>
           </div>
 
           <div className="mb-4">
-            <label htmlFor="message" className="label">
+            <label htmlFor="message" className="label reveal-up">
               Mensagem:
             </label>
             <textarea
@@ -132,11 +132,11 @@ const Contact = () => {
               id="message"
               placeholder="Escreva algo"
               required
-              className="text-field resize-y min-h-32 max-h-80"
+              className="text-field resize-y min-h-32 max-h-80 reveal-up"
             ></textarea>
           </div>
 
-          <button type="submit" className="btn btn-primary btn-full">
+          <button type="submit" className="btn btn-primary btn-full reveal-up">
             Enviar
           </button>
         </form>
