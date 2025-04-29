@@ -27,6 +27,10 @@ body {
   @apply text-3xl lg:text-4xl lg:leading-tight font-semibold;
 }
 
+.headline-contact {
+  @apply text-3xl lg:text-6xl lg:leading-tight font-semibold;
+}
+
 .title-1 {
   @apply text-[22] font-normal;
 }
@@ -112,4 +116,22 @@ body {
 
 .btn-outline {
   @apply h-11 bg-zinc-800 hover:bg-zinc-700 active:bg-zinc-800;
+}
+
+.btn-full {
+  @apply [&]:max-w-full w-full justify-center;
+}
+
+/* Text Field */
+
+.label {
+  @apply block text-zinc-200 text-sm font-normal mb-2;
+}
+
+.text-field {
+  @apply block outline-none w-full px-3 py-3 text-sm bg-zinc-800 rounded-xl ring-inset ring-1 ring-transparent transition-shadow hover:ring-zinc-50/15 focus:ring-indigo-500 focus:ring-2;
+}
+
+.text-field::placeholder {
+  @apply text-zinc-500;
 }
