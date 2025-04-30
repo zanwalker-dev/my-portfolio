@@ -20,7 +20,11 @@ body {
 } */
 
 .headline-1 {
-  @apply text-5xl leading-tight font-semibold lg:text-[55px] lg:leading-[1.15];
+  @apply text-4xl leading-tight font-semibold lg:text-[55px] lg:leading-[1.15];
+}
+
+.bigger-line {
+  @apply text-7xl leading-tight font-semibold lg:text-[55px] lg:leading-[1.15];
 }
 
 .headline-2 {
@@ -33,6 +37,44 @@ body {
 
 .title-1 {
   @apply text-[22] font-normal;
+}
+
+/* Animated */
+.line {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 4s steps(28, end) infinite;
+}
+
+.cursor {
+  position: relative;
+  @apply bg-zinc-50;
+  animation: blink 500ms infinite normal;
+}
+
+.typing-animation {
+  animation: blink 500ms infinite normal;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 85%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+
+@keyframes blink {
+  from {
+    opacity: 0.8;
+  }
+  to {
+    opacity: 0;
+  }
 }
 
 /* Utilities */

@@ -102,7 +102,7 @@ const Footer = () => {
             <img src="/logo-no-bg.png" width={40} height={40} alt="Logo" />
           </a>
 
-          <p className="text-zinc-500 text-sm">
+          <p className="text-zinc-500 text-sm h-4">
             &copy; 2025 <span className="text-zinc-300">zanwalker-dev</span>
           </p>
         </div>

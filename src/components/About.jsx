@@ -8,7 +8,14 @@ const About = () => {
     <section id="about" className="section">
       <div className="container">
         <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
-          <h2 className="text-5xl font-bold headline-2 mb-4">Sobre mim</h2>
+          <h2 className="relative font-bold bigger-line mb-4">
+            Quem sou eu?
+            <img
+              src="/react_1.png"
+              alt="react"
+              className="absolute left-180 h-60 md:left-115 md:bottom-0 md:h-45 reveal-up"
+            />
+          </h2>
           <p className="mb-4 md:-mb-8 md:text-xl md:max-w-[60ch]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
