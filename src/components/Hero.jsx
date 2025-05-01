@@ -36,7 +36,7 @@ const Hero = () => {
           <p className="text-lg font-extralight text-indigo-400">
             Software Developer
           </p>
-          <p className="text-sm text-zinc-500 mb-8 lg:mb-10">
+          <p className="text-sm text-zinc-400 mb-8 lg:mb-10">
             #FullStack #FrontEnd #BackEnd
           </p>
           <div className="flex items-center gap-3">
