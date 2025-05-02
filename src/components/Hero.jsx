@@ -9,9 +9,9 @@ import { ButtonPrimary, ButtonOutline } from "./Button";
 const Hero = () => {
   return (
     <section id="home" className="pt-28 lg:pt-36">
-      <div className="container lg:grid lg:grid-cols-2 items-center lg:gap-10">
+      <div className="container flex flex-col-reverse lg:grid lg:grid-cols-2 items-center lg:gap-10">
         <div>
-          <div className="flex  items-center gap-3">
+          <div className="flex items-center gap-3">
             <figure className="img-box w-9 h-9 rounded-lg">
               <img
                 src="/avatar.png"
@@ -41,8 +41,9 @@ const Hero = () => {
             />
           </div>
         </div>
-        <div className="hidden lg:block">
-          <figure className="w-full max-w-[480px] ml-auto">
+        <div className="lg:block">
+          <figure className="w-full max-w-[150px] sm:max-w-[300px] md:max-w-[480px] ml-auto mr-auto">
+            {" "}
             <img
               src="/profile.png"
               width={656}
