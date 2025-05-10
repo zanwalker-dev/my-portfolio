@@ -8,14 +8,19 @@ import SkillCard from "./SkillCard";
 
 const skillItem = [
   {
-    imgSrc: "/figma.svg",
-    label: "Figma",
-    desc: "Design tool",
+    imgSrc: "/java.svg",
+    label: "Java",
+    desc: "Back-end",
   },
   {
-    imgSrc: "/css3.svg",
-    label: "CSS",
-    desc: "User Interface",
+    imgSrc: "/spring.svg",
+    label: "Spring boot",
+    desc: "framework Java",
+  },
+  {
+    imgSrc: "/hibernate.svg",
+    label: "Hibernate",
+    desc: "ORM",
   },
   {
     imgSrc: "/javascript.svg",

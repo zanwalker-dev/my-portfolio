@@ -10,12 +10,10 @@ const About = () => {
         <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
           <h2 className="text-5xl font-bold headline-2 mb-4">Sobre mim</h2>
           <p className="mb-4 md:-mb-8 md:text-xl md:max-w-[60ch]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
+            Atualmente estou cursando Análise e Desenvolvimento de Sistemas na Unifacs. Eu sou
+            apaixonado por POO e passo boa parte do meu tempo pesquisando e aprendendo sobre boas
+            práticas, modularização e organização do código em geral.
+            No meu tempo livre sou mergulhador e dou aula de mergulho voluntário com foco na preservação ambiental.
           </p>
           <img
             src="/logo-no-bg.png"
