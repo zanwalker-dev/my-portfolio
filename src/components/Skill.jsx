@@ -8,14 +8,19 @@ import SkillCard from "./SkillCard";
 
 const skillItem = [
   {
-    imgSrc: "/figma.svg",
-    label: "Figma",
-    desc: "Design tool",
+    imgSrc: "/java.svg",
+    label: "Java",
+    desc: "Back-end",
   },
   {
-    imgSrc: "/css3.svg",
-    label: "CSS",
-    desc: "User Interface",
+    imgSrc: "/spring.svg",
+    label: "Spring boot",
+    desc: "framework Java",
+  },
+  {
+    imgSrc: "/hibernate.svg",
+    label: "Hibernate",
+    desc: "ORM",
   },
   {
     imgSrc: "/javascript.svg",
@@ -51,7 +56,7 @@ const skillItem = [
 
 const Skill = () => {
   return (
-    <section className="section">
+    <section id="skill" className="section">
       <div className="container">
         <h2 className="headline-2 reveal-up">Hard Skills</h2>
         <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch]">

@@ -8,40 +8,40 @@ import ProjectCard from "./ProjectCard";
 const works = [
   {
     imgSrc: "/project-1.jpg",
-    title: "Full stack music app",
+    title: "Em breve",
     tags: ["API", "MVC", "Development"],
-    projectLink: "https://musify-5al0.onrender.com/",
+    projectLink: "#",
   },
   {
     imgSrc: "/project-2.jpg",
-    title: "Free stock photo app",
+    title: "Em breve",
     tags: ["API", "SPA"],
-    projectLink: "https://pixstock-official.vercel.app/",
+    projectLink: "#",
   },
   {
     imgSrc: "/project-3.jpg",
-    title: "Recipe app",
+    title: "Em breve",
     tags: ["Development", "API"],
-    projectLink: "",
+    projectLink: "#",
   },
-  {
-    imgSrc: "/project-4.jpg",
-    title: "Real state website",
-    tags: ["Web-design", "Development"],
-    projectLink: "https://github.com/codewithsadee-org/wealthome",
-  },
-  {
-    imgSrc: "/project-5.jpg",
-    title: "eCommerce website",
-    tags: ["eCommerce", "Development"],
-    projectLink: "https://github.com/codewithsadee/anon-ecommerce-website",
-  },
-  {
-    imgSrc: "/project-6.jpg",
-    title: "vCard Personal portfolio",
-    tags: ["Web-design", "Development"],
-    projectLink: "https://github.com/codewithsadee/vcard-personal-portfolio",
-  },
+  // {
+  //   imgSrc: "/project-4.jpg",
+  //   title: "Real state website",
+  //   tags: ["Web-design", "Development"],
+  //   projectLink: "https://github.com/codewithsadee-org/wealthome",
+  // },
+  // {
+  //   imgSrc: "/project-5.jpg",
+  //   title: "eCommerce website",
+  //   tags: ["eCommerce", "Development"],
+  //   projectLink: "https://github.com/codewithsadee/anon-ecommerce-website",
+  // },
+  // {
+  //   imgSrc: "/project-6.jpg",
+  //   title: "vCard Personal portfolio",
+  //   tags: ["Web-design", "Development"],
+  //   projectLink: "https://github.com/codewithsadee/vcard-personal-portfolio",
+  // },
 ];
 
 const Work = () => {
